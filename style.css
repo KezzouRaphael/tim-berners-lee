@@ -1,3 +1,7 @@
+body {
+  background: #ebebeb;
+  font-family: "Open Sans", sans-serif;
+}
 header,
 nav,
 section {
@@ -6,34 +10,39 @@ section {
   margin: auto;
   width: 50%;
 }
-body {
-  background: #ebebeb;
-  font-family: "Open Sans", sans-serif;
-}
 #TimFace {
   display: block;
   border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
   width: 20%;
-  border: solid 1px;
+  border: solid 3px;
   border-color: #cccccc;
 }
-.FigureHeader {
-  padding: 30px;
+.FigureHeader,
+#IconsList,
+#MovieTitle {
+  padding-top: 30px;
+}
+#SocialList {
+  padding-bottom: 30px;
 }
 .FigureMovieSection {
-  padding-bottom: 110px;
+  padding-bottom: 80px;
+  padding-top: 30px;
 }
 h1 {
   text-align: center;
-  color: #cf595e;
+  color: #dd5555;
+  font-weight: 1000;
 }
 h2,
 h3,
-p {
+p,
+figcaption {
   text-align: center;
-  padding: 30px;
+  color: grey;
+  font-size: 20px;
 }
 #Button {
   width: 150px;
@@ -44,13 +53,36 @@ p {
   border-radius: 4px;
   text-decoration: none;
   display: inline-block;
+  margin: 20px;
+}
+strong {
+  color: #676769;
 }
 .movies {
   float: left;
   width: 20%;
 }
-section {
-  overflow: hidden;
+p {
+  padding: 50px;
 }
-figcaption {
+ul {
+  display: flex;
+  flex-flow: row nowrap;
+  text-align: center;
+}
+li {
+  display: inline-table;
+}
+ul li {
+  flex: 1 auto;
+}
+.SocialLinks,
+i {
+  color: #757575;
+  opacity: 0.5;
+  text-decoration: none;
+}
+i {
+  text-align: center;
+  font-size: 25px;
 }
