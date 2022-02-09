@@ -19,23 +19,38 @@ body {
   border: solid 1px;
   border-color: #cccccc;
 }
-figure {
+.FigureHeader {
   padding: 30px;
+}
+.FigureMovieSection {
+  padding-bottom: 110px;
 }
 h1 {
   text-align: center;
   color: #cf595e;
 }
 h2,
+h3,
 p {
   text-align: center;
+  padding: 30px;
 }
 #Button {
-  width: 300px;
-  height: 100px;
+  width: 150px;
+  height: 30px;
   border: none;
   color: white;
   background-color: rgb(255, 0, 68);
   border-radius: 4px;
   text-decoration: none;
+  display: inline-block;
+}
+.movies {
+  float: left;
+  width: 20%;
+}
+section {
+  overflow: hidden;
+}
+figcaption {
 }
